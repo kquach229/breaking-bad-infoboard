@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const CharacterItem = ({item}) => {
-    const statusClass = item.status == "Alive" ? "alive" : "dead";
+    const statusClass = item.status === "Alive" ? "alive" : "dead";
     return (
         <div className="card">
             <div className="card-inner">
